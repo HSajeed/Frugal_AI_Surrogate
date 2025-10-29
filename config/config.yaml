@@ -1,0 +1,20 @@
+model:
+  hidden_layers: [64, 64, 64]
+  activation: leaky_relu
+  output_dim: 2
+  dropout: 0.3
+
+training:
+  optimizer: adam
+  batch_size: 256
+  max_epochs: 500
+  patience: 10
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+data:
+  input_csv: data/U_Bend_full_8933.csv
+  target_columns: ["Nu_avg", "DeltaP"]
+  drop_columns: ["sample_id", "Nu_avg", "DeltaP"]
+  test_size: 0.1
+  random_seed: 42

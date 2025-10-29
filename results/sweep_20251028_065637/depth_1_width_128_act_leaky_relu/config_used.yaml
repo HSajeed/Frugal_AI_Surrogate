@@ -1,0 +1,22 @@
+data:
+  drop_columns:
+  - sample_id
+  - Nu_avg
+  - DeltaP
+  input_csv: data/U_Bend_full_8933.csv
+  random_seed: 42
+  target_columns:
+  - Nu_avg
+  - DeltaP
+  test_size: 0.1
+model:
+  activation: leaky_relu
+  hidden_layers:
+  - 128
+  output_dim: 2
+training:
+  batch_size: 256
+  learning_rate: 0.001
+  max_epochs: 500
+  patience: 10
+  weight_decay: 0.0001
