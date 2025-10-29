@@ -56,12 +56,12 @@ python scripts/summarize_<hyperparameter>
 
 This project uses CFD simulation data from the following publication:
 
-Title: CFD dataset for U-bend geometries with varying design parameters
-Authors: Mohamed A. El-Sayed, Ahmed M. Elshazly, Mohamed A. El-Gendy
-Journal: Data in Brief, Volume 48, 2023
-DOI: https://doi.org/10.1016/j.dib.2023.109477
+- Title: CFD dataset for U-bend geometries with varying design parameters
+- Authors: Mohamed A. El-Sayed, Ahmed M. Elshazly, Mohamed A. El-Gendy
+- Journal: Data in Brief, Volume 48, 2023
+- DOI: https://doi.org/10.1016/j.dib.2023.109477
 
-Dataset: U_Bend_full_8933.csv
+- Dataset: U_Bend_full_8933.csv
 Description: Contains 8,933 random samples (from 10,000 samples) of U-bend geometries with corresponding CFD outputs (Nu_avg, DeltaP) across 30 parametric features, extracted and composed into a CSV file. 
 
   
